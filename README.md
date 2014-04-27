@@ -21,3 +21,8 @@ The next step was putting together subjects and data into a single dataset in or
 For subsetting the resultant data frame the previously collected column indexes were used.
 
 Finally, the average for each variable was calculated per subject by using the **ddply** function from the package **plyr**.
+
+Three different datasets are returned by the script, for evaluation purposes:
+  * **"merged.data"** The merged test and train datasets
+  * **"merged.avg.std"** A subset of the "merged.data" with only the subject, mean and standard deviation columns 
+  * **"avg.activity.subject"** The tidy dataset with the means of each variable per subject
