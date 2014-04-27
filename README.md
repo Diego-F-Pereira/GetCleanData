@@ -3,7 +3,7 @@ GetCleanData
 
 Repository created solely for the program assignments of the course "Getting and Cleaning Data".
 
-The file PA2r.R contains the script required for solving the exercises of the "Peer Assessment".
+The file **PA2r.R** contains the script required for solving the exercises of the "Peer Assessment".
 
 The script is intended to produce a tidy dataset from the mean of the 66 variables that met the assignment requirements, that is, the variables that represent the mean and standard deviation of several measurements.
 
