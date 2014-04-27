@@ -85,7 +85,25 @@ library(plyr)
 
 avg.activity.subject <- ddply(merged.avg.std, .(subject, activity), numcolwise(mean))
 
+acti.codes     <- read.table("./UCI HAR Dataset/activity_labels.txt")
+
+merged.final   <- merge(avg.activity.subject, acti.codes, by.x = "activity", by.y = "V1")
+
+# Partial Cleanning
+
+rm(list = "acti.codes", "avg.activity.subject")
+
+# Tidy Dataset
+
+tidy.data      <- merged.final[,2:69]
+
+colnames(tidy.data)[68] <- "activity"
+
+# Final Cleaning
+
+rm(list = "merged.final")
+
 # Exports the tidy data frame to a tab delimited file
 
-write.table(avg.activity.subject, "./tidy.txt", sep="\t")
+write.table(tidy.data, "./tidy.txt", sep="\t")
 
