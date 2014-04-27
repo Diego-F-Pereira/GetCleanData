@@ -25,4 +25,4 @@ Finally, the average for each variable was calculated per subject by using the *
 Three different datasets are returned by the script, for evaluation purposes:
   * **"merged.data"** The merged test and train datasets
   * **"merged.avg.std"** A subset of the "merged.data" with only the subject, mean and standard deviation columns 
-  * **"avg.activity.subject"** The tidy dataset with the means of each variable per subject
+  * **"avg.activity.subject"** The tidy dataset with the mean of each variable per subject
