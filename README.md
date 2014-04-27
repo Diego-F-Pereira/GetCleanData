@@ -5,6 +5,8 @@ Repository created solely for the program assignments of the course "Getting and
 
 The file **run_analysis.R** contains the script required for solving the exercises of the "Peer Assessment".
 
+For testing purposes remember to set your working directory.
+
 The script is intended to produce a tidy dataset from the mean of the 66 variables that met the assignment requirements, that is, the variables that represent the mean and standard deviation of several measurements.
 
 For doing that, it loads 5 different files into R
