@@ -1,6 +1,6 @@
-Note: I uploaded this on Monday after the deadline submission of the assignment.
+*Note: I uploaded this on Monday after the deadline submission of the assignment.*
 
-Data Dictionary for the **processed** Human Activity Recognition Using Smartphones Dataset
+###Data Dictionary for the **processed** Human Activity Recognition Using Smartphones Dataset
 
 This codebook describes the 68 variables included at the final dataset **tidy.data** produced by my R-script.
 
