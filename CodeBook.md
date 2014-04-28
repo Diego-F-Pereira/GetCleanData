@@ -35,15 +35,15 @@ This codebook describes the 68 variables included at the final dataset **tidy.da
   * **tbodygyrojerk.std.x** Average of the standard deviation of **angular velocity** jerk in the **x axis** in **time domain**
   * **tbodygyrojerk.std.y** Average of the standard deviation of **angular velocity** jerk in the **y axis** in **time domain**
   * **tbodygyrojerk.std.z** Average of the standard deviation of **angular velocity** jerk in the **z axis** in **time domain**
-  * **tbodyaccmag.mean** Average of the mean **body acceleration** in **time domain**
-  * **tbodyaccmag.std** Average of the standard deviation of **body acceleration** in **time domain**
-  * **tgravityaccmag.mean** Average of the mean **gravity acceleration** in **time domain**
-  * **tgravityaccmag.std** Average of the standard deviation of **gravity acceleration** in **time domain**
-  * **tbodyaccjerkmag.mean** Average of the mean **body acceleration** jerk in **time domain**
-  * **tbodyaccjerkmag.std** Average of the standard deviation of **body acceleration** jerk in **time domain**
-  * **tbodygyromag.mean** Average of the mean **angular velocity** in **time domain**
-  * **tbodygyromag.std** Average of the standard deviation of **angular velocity** in **time domain**
-  * **tbodygyrojerkmag.mean** Average of the mean **angular velocity** jerk in **time domain**
+  * **tbodyaccmag.mean** Average of the mean **body acceleration magnitude** in **time domain**
+  * **tbodyaccmag.std** Average of the standard deviation of **body acceleration magnitude** in **time domain**
+  * **tgravityaccmag.mean** Average of the mean **gravity acceleration magnitude** in **time domain**
+  * **tgravityaccmag.std** Average of the standard deviation of **gravity acceleration magnitude** in **time domain**
+  * **tbodyaccjerkmag.mean** Average of the mean **body acceleration magnitude** jerk in **time domain**
+  * **tbodyaccjerkmag.std** Average of the standard deviation of **body acceleration magnitude** jerk in **time domain**
+  * **tbodygyromag.mean** Average of the mean **angular velocity magnitude** in **time domain**
+  * **tbodygyromag.std** Average of the standard deviation of **angular velocity magnitude** in **time domain**
+  * **tbodygyrojerkmag.mean** Average of the mean **angular velocity magnitude** jerk in **time domain**
   * **tbodygyrojerkmag.std** Average of the standard deviation of **angular velocity** jerk in **time domain**
   * **fbodyacc.mean.x** Average of the mean **body acceleration** in the **x axis** in **frequency domain**
   * **fbodyacc.mean.y** Average of the mean **body acceleration** in the **y axis** in **frequency domain**
@@ -63,12 +63,12 @@ This codebook describes the 68 variables included at the final dataset **tidy.da
   * **fbodygyro.std.x** Average of the standard deviation of **angular velocity** in the **x axis** in **frequency domain**
   * **fbodygyro.std.y** Average of the standard deviation of **angular velocity** in the **y axis** in **frequency domain**
   * **fbodygyro.std.z** Average of the standard deviation of **angular velocity** in the **z axis** in **frequency domain**
-  * **fbodyaccmag.mean** Average of the mean **body acceleration** in **frequency domain**
-  * **fbodyaccmag.std** Average of the standard deviation of **body acceleration** in **frequency domain**
-  * **fbodybodyaccjerkmag.mean** Average of the mean **body acceleration** jerk in **frequency domain**
-  * **fbodybodyaccjerkmag.std** Average of the standard deviation of **body acceleration** jerk in **frequency domain**
-  * **fbodybodygyromag.mean** Average of the mean **angular velocity** in **frequency domain**
-  * **fbodybodygyromag.std** Average of the standard deviation of **angular velocity** in **frequency domain**
-  * **fbodybodygyrojerkmag.mean** Average of the mean **angular velocity** jerk in **frequency domain**
-  * **fbodybodygyrojerkmag.std** Average of the standard deviation of **angular velocity** jerk in **frequency domain**
+  * **fbodyaccmag.mean** Average of the mean **body acceleration magnitude** in **frequency domain**
+  * **fbodyaccmag.std** Average of the standard deviation of **body acceleration magnitude** in **frequency domain**
+  * **fbodybodyaccjerkmag.mean** Average of the mean **body acceleration magnitude** jerk in **frequency domain**
+  * **fbodybodyaccjerkmag.std** Average of the standard deviation of **body acceleration magnitude** jerk in **frequency domain**
+  * **fbodybodygyromag.mean** Average of the mean **angular velocity magnitude** in **frequency domain**
+  * **fbodybodygyromag.std** Average of the standard deviation of **angular velocity magnitude** in **frequency domain**
+  * **fbodybodygyrojerkmag.mean** Average of the mean **angular velocity magnitude** jerk in **frequency domain**
+  * **fbodybodygyrojerkmag.std** Average of the standard deviation of **angular velocity magnitude** jerk in **frequency domain**
   * **activity** Activities performed by each subject: walking, walking upstairs, walking downstairs, sitting, standing, laying
