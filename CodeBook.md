@@ -1,4 +1,4 @@
-*Note: I uploaded this on Monday after the deadline submission of the assignment.*
+*Note: I uploaded the CodeBook on Monday after the deadline submission of the assignment.*
 
 ###Data Dictionary for the **processed** Human Activity Recognition Using Smartphones Dataset
 
