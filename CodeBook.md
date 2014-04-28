@@ -20,25 +20,25 @@ This codebook describes the 68 variables included at the final dataset **tidy.da
   * **tbodyaccjerk.mean.x** Average of the mean **body acceleration** jerk in the **x axis** in **time domain**
   * **tbodyaccjerk.mean.y** Average of the mean **body acceleration** jerk in the **y axis** in **time domain**
   * **tbodyaccjerk.mean.z** Average of the mean **body acceleration** jerk in the **z axis** in **time domain**
-  * **tbodyaccjerk.std.x** Average of the standard deviation of *body acceleration** jerk in the **x axis** in **time domain**
-  * **tbodyaccjerk.std.y** Average of the standard deviation of *body acceleration** jerk in the **x axis** in **time domain**
-  * **tbodyaccjerk.std.z** Average of the standard deviation of *body acceleration** jerk in the **x axis** in **time domain**
-  * **tbodygyro.mean.x** Average of the mean **angular velocity** in the x axis in **time domain**
-  * **tbodygyro.mean.y** Average of the mean **angular velocity** in the x axis in **time domain**
-  * **tbodygyro.mean.z** Average of the mean **angular velocity** in the x axis in **time domain**
-  * **tbodygyro.std.x** Average of the standard deviation of **angular velocity** in the x axis in **time domain**
-  * **tbodygyro.std.y** Average of the standard deviation of **angular velocity** in the x axis in **time domain**
-  * **tbodygyro.std.z** Average of the standard deviation of **angular velocity** in the x axis in **time domain**
-  * **tbodygyrojerk.mean.x** Average of the mean **angular velocity** jerk in the x axis in **time domain**
-  * **tbodygyrojerk.mean.y** Average of the mean **angular velocity** jerk in the x axis in **time domain**
-  * **tbodygyrojerk.mean.z** Average of the mean **angular velocity** jerk in the x axis in **time domain**
-  * **tbodygyrojerk.std.x** Average of the standard deviation of **angular velocity** jerk in the x axis in **time domain**
-  * **tbodygyrojerk.std.y** Average of the standard deviation of **angular velocity** jerk in the x axis in **time domain**
-  * **tbodygyrojerk.std.z** Average of the standard deviation of **angular velocity** jerk in the x axis in **time domain**
-  * **tbodyaccmag.mean** Average of the mean **body acceleration** in the x axis in **time domain**
-  * **tbodyaccmag.std** Average of the standard deviation of **body acceleration** in the x axis in **time domain**
-  * **tgravityaccmag.mean** Average of the mean body acceleration in the x axis in **time domain**
-  * **tgravityaccmag.std** Average of the standard deviation of body acceleration in the x axis in **time domain**
+  * **tbodyaccjerk.std.x** Average of the standard deviation of **body acceleration** jerk in the **x axis** in **time domain**
+  * **tbodyaccjerk.std.y** Average of the standard deviation of **body acceleration** jerk in the **x axis** in **time domain**
+  * **tbodyaccjerk.std.z** Average of the standard deviation of **body acceleration** jerk in the **x axis** in **time domain**
+  * **tbodygyro.mean.x** Average of the mean **angular velocity** in the **x axis** in **time domain**
+  * **tbodygyro.mean.y** Average of the mean **angular velocity** in the **y axis** in **time domain**
+  * **tbodygyro.mean.z** Average of the mean **angular velocity** in the **z axis** in **time domain**
+  * **tbodygyro.std.x** Average of the standard deviation of **angular velocity** in the **x axis** in **time domain**
+  * **tbodygyro.std.y** Average of the standard deviation of **angular velocity** in the **y axis** in **time domain**
+  * **tbodygyro.std.z** Average of the standard deviation of **angular velocity** in the **z axis** in **time domain**
+  * **tbodygyrojerk.mean.x** Average of the mean **angular velocity** jerk in the **x axis** in **time domain**
+  * **tbodygyrojerk.mean.y** Average of the mean **angular velocity** jerk in the **y axis** in **time domain**
+  * **tbodygyrojerk.mean.z** Average of the mean **angular velocity** jerk in the **z axis** in **time domain**
+  * **tbodygyrojerk.std.x** Average of the standard deviation of **angular velocity** jerk in the **x axis** in **time domain**
+  * **tbodygyrojerk.std.y** Average of the standard deviation of **angular velocity** jerk in the **y axis** in **time domain**
+  * **tbodygyrojerk.std.z** Average of the standard deviation of **angular velocity** jerk in the **z axis** in **time domain**
+  * **tbodyaccmag.mean** Average of the mean **body acceleration** in **time domain**
+  * **tbodyaccmag.std** Average of the standard deviation of **body acceleration** in **time domain**
+  * **tgravityaccmag.mean** Average of the mean **gravity acceleration** in the x axis in **time domain**
+  * **tgravityaccmag.std** Average of the standard deviation of **gravity acceleration** in the x axis in **time domain**
   * **tbodyaccjerkmag.mean** Average of the mean **body acceleration** jerk in the x axis in **time domain**
   * **tbodyaccjerkmag.std** Average of the standard deviation of **body acceleration** jerk in the x axis in **time domain**
   * **tbodygyromag.mean** Average of the mean **angular velocity** in **time domain**
